@@ -3,7 +3,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class TopSort {//код со счетчиками
+public class TopSort2 {//код со счетчиками
     static ArrayList<ArrayList<Integer>> g;
     static ArrayList<Integer> top = new ArrayList<Integer>();
     static int used[];
