@@ -3,7 +3,7 @@ package a1;
 import java.util.*;
 import java.io.*;
 
-public class Main {//код без счетчиков
+public class TopSort1 {//код без счетчиков
     static ArrayList<ArrayList<Integer>> g;
     static ArrayList<Integer> top = new ArrayList<>();
     static int used[];
